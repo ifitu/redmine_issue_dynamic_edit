@@ -23,7 +23,7 @@ var _CONF_DISPLAY_EDIT_ICON = "single";
  * Choose which action will trigger the apparition of the edition block
  * Allowed values : click (default), dblclick, none
  */
-var _CONF_LISTENER_TYPE_VALUE = "click";
+var _CONF_LISTENER_TYPE_VALUE = "none";
 
 /*
  * _CONF_LISTENER_TYPE_ICON (string)
@@ -39,7 +39,7 @@ var _CONF_LISTENER_TYPE_ICON = "click";
  * "value" will target the whole line, "fa-pencil" will only target the pencil icon
  * Allowed values : value (default), fa-pencil
  */
-var _CONF_LISTENER_TARGET = "value";
+var _CONF_LISTENER_TARGET = "fa-pencil";
 
 /*
  * _CONF_EXCLUDED_FIELD_ID (string array)
